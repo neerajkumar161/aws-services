@@ -1,0 +1,17 @@
+{
+  "name": "dynamodb-node-typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "npx tsx src/index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@aws-sdk/client-dynamodb": "^3.577.0",
+    "tsx": "^4.10.5"
+  }
+}

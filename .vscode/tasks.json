@@ -1,0 +1,17 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "npm",
+			"script": "start",
+			"path": "dynamodb-node-typescript",
+			"problemMatcher": [],
+			"label": "npm: start - dynamodb-node-typescript",
+			"detail": "npx tsx src/index.ts",
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			}
+		}
+	]
+}
